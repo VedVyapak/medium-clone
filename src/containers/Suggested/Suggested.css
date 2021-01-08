@@ -1,0 +1,16 @@
+.suggested {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* .suggested__main__trending {
+    flex: 0.3;
+}
+
+.suggested__group__trending {
+    flex: 0.3;
+}
+
+.suggested__follow {
+    flex: 0.3;
+} */

@@ -4,7 +4,7 @@ import './Header.css'
 import SearchIcon from '@material-ui/icons/Search';
 import BookmarkBorderIcon from '@material-ui/icons/BookmarkBorder';
 import NotificationsNoneIcon from '@material-ui/icons/NotificationsNone';
-import HeaderIcon from '../../component/UI/Icon/HeaderIcon'
+import HeaderIcon from '../../components/UI/HeaderIcon/HeaderIcon'
 
 function Header() {
     return (

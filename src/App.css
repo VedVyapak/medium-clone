@@ -1,8 +1,18 @@
 .app{
   background-color: #ffffff;
-  align-items: center;
+  font-family: 'raleway', sans-serif;
+  /* align-items: center; */
+  /* max-width: 1200px; */
   /* margin: 50px 75px; */
-  /* display: flex;
+  display: flex;
   flex-direction: column;
-  align-items: center; */
+  align-items: center;
+}
+
+.app__body {
+    width: 100%;
+    margin-top: 25px;
+    max-width: 1280px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
