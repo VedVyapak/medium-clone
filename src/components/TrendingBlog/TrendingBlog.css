@@ -1,0 +1,29 @@
+.trending__blog {
+    display: flex;
+    /* margin-bottom: 10px; */
+    cursor: pointer;
+    /* max-height: 100%; */
+    padding-bottom: 30px;
+}
+
+.trending__blog__left > h3 {
+    flex: 0.4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 800;
+    margin-right: 15px;
+    line-height: 1.3;
+}
+
+.trending__blog__left > p {
+    margin-top: 10px;
+    font-size: 13px;
+    color: gray;
+}
+
+.trending__blog__right{
+    flex: 0.4;
+}
