@@ -11,8 +11,7 @@ function Suggested() {
         <div className='suggested'>
                 <SuggestedMainTrending/>
                 <SuggestedGroupTrending/>
-                {/* <SuggestedFollow/> */}
-                <SuggestedMainTrending/>
+                <SuggestedFollow/>
         </div>
     )
 }

@@ -1,24 +1,37 @@
-import React from 'react';
-import HeaderIcon from '../../UI/HeaderIcon/HeaderIcon'
+import React from 'react'
+import ProfileSuggested from '../../ProfileSuggested/ProfileSuggested'
+import TopicsSuggested from '../../TopicsSuggested/TopicsSuggested'
 import './SuggestedFollow.css'
 
-function SuggestedMainTrending() {
+function SuggestedFollow() {
     return (
-        <div className='trending' >
-            <div className='trending__top'>
-                <img src='https://miro.medium.com/fit/c/470/353/1*OfJTXSNq29tr0jbv7dA5AQ.png' alt='' />
-            </div>
-            <div className='trending__avatar'>
-                <HeaderIcon avatar={true} photoUrl='https://images.unsplash.com/photo-1610014205112-051396496937?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1073&q=80' title='Ved Vyapak' />
-            </div>
-            <div className='trending__bottom'>
-                <h2>ROS VL53L0X range sensor based on Arduino Mega 2560 and Rosserial</h2>
-                <p>In the previous story I showed how to create a ROS supported distance sensor by creating a simple sketch and a C++ ROS node. But there is…</p>
-                <p>Read More . 4 min read</p>
+        <div className='suggested__follow'>
+            <div className='creators__follow'>
+                <h3>CREATORS TO FOLOW</h3>
+                <div className='profile'>
+                    <ProfileSuggested 
+                        name='Will Wheaton' 
+                        content='Wizard. Time Lord. Fake geek girl. On a good day I am charming as fuck.' 
+                        photoUrl='https://miro.medium.com/fit/c/80/80/0*ZeXspjgRt9P0n3a3.png' />
+                    <ProfileSuggested 
+                        name='Anil Dash' 
+                        content='CEO of @Glitch. Trying to make tech more ethical & humane.' 
+                        photoUrl='https://miro.medium.com/fit/c/80/80/1*yWQSXi7DUTz3mnjCCTVrCw.jpeg' />
+                </div>    
             </div>
 
+            <div className='topics__follow'>
+                <h3>TOPICS TO FOLLOW</h3> 
+                <div className='topics'>
+                    <TopicsSuggested title='Coronavirus' button={true} />
+                    <TopicsSuggested title='Software' button={true}/>
+                    <TopicsSuggested title='Lifestyle' button={true} />
+                </div>    
+            </div>
+           
+           
         </div>
     )
 }
 
-export default SuggestedMainTrending
+export default SuggestedFollow

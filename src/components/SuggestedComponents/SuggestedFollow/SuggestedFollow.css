@@ -1,0 +1,26 @@
+.suggested__follow {
+    width: 100%;
+    flex: 0.3;
+    /* height: fit-content; */
+    border-left: 0.5px solid rgba(204, 195, 195, 0.507);
+}
+
+.creators__follow {
+    padding-left: 25px;
+    margin-bottom: 40px;
+}
+
+.creators__follow > h3 {
+    font-size: 13px;
+    font-weight: 800;
+}
+
+.topics__follow {
+    padding-left: 25px;
+}
+
+.topics__follow > h3 {
+    font-size: 13px;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
