@@ -1,0 +1,9 @@
+.HeaderIcon {
+    margin-right: 20px;
+    cursor: pointer;
+    color: gray;
+}
+
+.HeaderIcon:hover {
+    color: black;
+}
