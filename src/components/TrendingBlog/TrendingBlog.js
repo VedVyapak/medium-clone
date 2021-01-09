@@ -1,20 +1,22 @@
 import React from 'react'
-import HeaderIcon from '../../../UI/HeaderIcon/HeaderIcon'
-import './BlogSuggested.css'
+import './TrendingBlog.css'
+import HeaderIcon from '../UI/HeaderIcon/HeaderIcon' 
 
-function BlogSuggested({photoUrl, userName, topic, date, postPhotoUrl}) {
+function TrendingBlog({number,photoUrl, userName, topic, date}) {
     return (
         <div className='trending__blog'>
+            <div className='trending__number'>
+                <h1>{number}</h1>
+            </div>
+            
             <div className='trending__blog__left'>
                 <HeaderIcon avatar={true} photoUrl={photoUrl} title={userName} />
                 <h3>{topic}</h3>
                 <p>{date}</p>
-            </div>
-            <div className='trending__blog__right'>
-                <img src={postPhotoUrl} alt=""/>
+            
             </div>
         </div>
     )
 }
 
-export default BlogSuggested
+export default TrendingBlog

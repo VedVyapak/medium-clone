@@ -1,14 +1,19 @@
 .trending__blog {
     display: flex;
-    cursor: pointer;
-    padding-bottom: 30px;
+    flex: 0.3;
+    padding-right: 15px;
+}
+
+.trending__number {
+    color: rgba(197, 190, 190, 0.384);
+    margin-right: 20px;
 }
 
 .trending__blog__left > h3 {
-    flex: 0.4;
-    display: flex;
+    /* flex: 0.4; */
+    /* display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center; */
     margin-top: 10px;
     font-size: 15px;
     font-weight: 800;
@@ -20,8 +25,4 @@
     margin-top: 10px;
     font-size: 13px;
     color: gray;
-}
-
-.trending__blog__right{
-    flex: 0.4;
 }

@@ -1,11 +1,13 @@
 .trending {
-    padding-top: 40px;
+    padding: 40px 0;
     border-top: 0.5px solid rgba(204, 195, 195, 0.507);
+    border-bottom: 0.5px solid rgba(204, 195, 195, 0.507);
 }
 
 .trending__flex {
     display: flex;
     flex-direction: column;
+    margin: 20px 0;
 }
 
 .trending__flex__bottom, .trending__flex__top {

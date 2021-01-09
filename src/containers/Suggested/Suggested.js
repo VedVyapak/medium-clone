@@ -1,7 +1,7 @@
 import React from 'react'
 import './Suggested.css'
 
-import SuggestedMainTrending from '../../components/SuggestedComponents/SuggestedMainTrending/SuggestedMainTrending'
+import SuggestedMainTrending from '../../components/Suggested/SuggestedComponents/SuggestedMainTrending/SuggestedMainTrending'
 import SuggestedGroupTrending from '../../components/Suggested/SuggestedComponents/SuggestedGroupTrending/SuggestedGroupTrending'
 import SuggestedFollow from '../../components/Suggested/SuggestedComponents/SuggestedFollow/SuggestedFollow'
 

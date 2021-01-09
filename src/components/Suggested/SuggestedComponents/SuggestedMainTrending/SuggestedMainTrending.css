@@ -1,4 +1,4 @@
-.trending {
+.main__suggested {
     /* width: 100%; */
     width: 100%;
     flex: 0.3;
@@ -6,30 +6,30 @@
     cursor: pointer;
 }
 
-.trending > .trending__top > img {
+.main__suggested > .main__suggested > img {
     width: 100%;
     height: 100%;
     margin-bottom: 10px;
 }
 
-.trending__avatar {
+.main__suggested__avatar {
     margin: 5px 0;
 }
 
-.trending__bottom > h2 {
+.main__suggested__bottom > h2 {
     margin: 5px 0;
     font-weight: 800;
     font-size: 1.3rem;
 }
 
-.trending__bottom > h6 {
+.main__suggested__bottom > h6 {
     font-size: 1rem;
     line-height: 1.7;
     font-weight: 400;
     margin-bottom: 5px;
 }
 
-.trending__bottom > p {
+.main__suggested__bottom > p {
     font-weight: 500;
     margin-top: 20px;
     font-size: 0.8rem;
