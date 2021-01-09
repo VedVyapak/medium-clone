@@ -1,6 +1,6 @@
 import React from 'react'
 import './TopicsSuggested.css'
-import Button from '../UI/Button/Button'
+import Button from '../../../UI/Button/Button'
 
 function TopicsSuggested({title, button}) {
     return (

@@ -1,6 +1,6 @@
 import React from 'react';
-import BigAvatar from '../UI/BigAvatar/BigAvatar';
-import Button from '../UI/Button/Button';
+import BigAvatar from '../../../UI/BigAvatar/BigAvatar';
+import Button from '../../../UI/Button/Button';
 import './ProfileSuggested.css';
 
 function ProfileSuggested({name, content, photoUrl}) {

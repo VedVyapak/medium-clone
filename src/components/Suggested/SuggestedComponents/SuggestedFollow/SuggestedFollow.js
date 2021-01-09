@@ -1,6 +1,6 @@
 import React from 'react'
-import ProfileSuggested from '../../ProfileSuggested/ProfileSuggested'
-import TopicsSuggested from '../../TopicsSuggested/TopicsSuggested'
+import ProfileSuggested from '../../SuggestedSmallComponents/ProfileSuggested/ProfileSuggested'
+import TopicsSuggested from '../../SuggestedSmallComponents/TopicsSuggested/TopicsSuggested'
 import './SuggestedFollow.css'
 
 function SuggestedFollow() {
