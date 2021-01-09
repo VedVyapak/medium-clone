@@ -16,6 +16,15 @@
     margin: 5px 0;
 }
 
+.main__suggested__top {
+    width: 100%
+}
+
+.main__suggested__top > img {
+    width: 100%
+}
+
+
 .main__suggested__bottom > h2 {
     margin: 5px 0;
     font-weight: 800;

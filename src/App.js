@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Feed from './containers/Feed/Feed';
 import Header from './containers/Header/Header';
 import Suggested from './containers/Suggested/Suggested'
 import Trending from './containers/Trending/Trending';
@@ -11,7 +12,7 @@ function App() {
       <div className="app__body">
         <Suggested/>
         <Trending/>
-        {/*Body*/}
+        <Feed/>
       </div>
     </div>
   );

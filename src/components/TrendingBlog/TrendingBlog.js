@@ -13,7 +13,6 @@ function TrendingBlog({number,photoUrl, userName, topic, date}) {
                 <HeaderIcon avatar={true} photoUrl={photoUrl} title={userName} />
                 <h3>{topic}</h3>
                 <p>{date}</p>
-            
             </div>
         </div>
     )

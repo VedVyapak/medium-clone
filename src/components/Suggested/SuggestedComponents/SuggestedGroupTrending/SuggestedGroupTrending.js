@@ -14,8 +14,6 @@ function SuggestedGroupTrending() {
 
             <BlogSuggested 
                 photoUrl='https://miro.medium.com/fit/c/25/25/1*2dvTVo0Sra9GP7FQC-3N8Q.png'
-                
-
                 userName='Krissanawat Kaewsanmuang' 
                 topic='Building a “Motivation Bot” with TensorFlow.js, Face Detection, and Emotion Classification.' 
                 date='Sep 14, 2020 · 7 min read' 

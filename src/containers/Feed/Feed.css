@@ -1,0 +1,14 @@
+.feed {
+    padding-top: 60px;
+    display: flex;
+}
+
+.feed__blog__list {
+    flex: 0.7;
+    margin-right: 30px;
+}
+
+.feed__bookmark__list {
+    margin-left: 30px;
+    flex: 0.3;
+}
