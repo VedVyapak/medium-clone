@@ -2,8 +2,8 @@ import React from 'react'
 import './Suggested.css'
 
 import SuggestedMainTrending from '../../components/SuggestedComponents/SuggestedMainTrending/SuggestedMainTrending'
-import SuggestedGroupTrending from '../../components/SuggestedComponents/SuggestedGroupTrending/SuggestedGroupTrending'
-import SuggestedFollow from '../../components/SuggestedComponents/SuggestedFollow/SuggestedFollow'
+import SuggestedGroupTrending from '../../components/Suggested/SuggestedComponents/SuggestedGroupTrending/SuggestedGroupTrending'
+import SuggestedFollow from '../../components/Suggested/SuggestedComponents/SuggestedFollow/SuggestedFollow'
 
 
 function Suggested() {

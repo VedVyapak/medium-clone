@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Header from './containers/Header/Header';
 import Suggested from './containers/Suggested/Suggested'
+import Trending from './containers/Trending/Trending';
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
       <Header/>
       <div className="app__body">
         <Suggested/>
-        {/*Trending*/}
+        <Trending/>
         {/*Body*/}
       </div>
     </div>

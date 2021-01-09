@@ -1,6 +1,6 @@
 import React from 'react'
-import HeaderIcon from '../UI/HeaderIcon/HeaderIcon'
-import './TrendingBlog.css'
+import HeaderIcon from '../../../UI/HeaderIcon/HeaderIcon'
+import './BlogSuggested.css'
 
 function TrendingBlog({photoUrl, userName, topic, date, postPhotoUrl}) {
     return (
